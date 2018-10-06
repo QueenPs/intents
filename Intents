@@ -1,0 +1,41 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "first demo",
+            "intents": [{
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloIntent",
+                    "slots": [],
+                    "samples": [
+                        "Hi",
+                        "Hey",
+                        "Hello"
+                    ]
+                },
+                {
+                    "name": "DisplayGreetings",
+                    "slots": [{
+                        "name": "Mridul",
+                        "type": "AMAZON.Person"
+                    }],
+                    "samples": [
+                        "I am {Mridul}",
+                        "My name is {Mridul} "
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
